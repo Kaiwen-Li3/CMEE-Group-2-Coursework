@@ -7,6 +7,11 @@ This script reads a CSV file containing tree species data, identifies species fr
 **Important:** This script uses relative paths for both input and output files. To ensure the script runs correctly, you **must execute the script from within the `code` folder**. This is necessary because the input data file (`TestOaksData.csv`) is located in the `../data` folder relative to the code, and the results will be saved in the `../results` folder.
 
 
+
+
+
+
+
 /CMEE-Group-2-Coursework/
     └── week3/
         ├── code/
@@ -15,6 +20,7 @@ This script reads a CSV file containing tree species data, identifies species fr
         │   └── TestOaksData.csv
         └── results/
             └── oaks_debugme_results.csv
+           
 
 
 

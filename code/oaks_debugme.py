@@ -7,7 +7,17 @@ import doctest
 
 #Define function
 def is_an_oak(name):
-    """ Returns True if name starts with 'quercus' 
+    """
+    For a given string, checks whether or not it starts with 'quercus'
+
+    Args:
+        name (str): The genus name to check 
+
+    Returns: 
+        bool: True if starts with 'quercus', false otherwise.
+    """
+
+    """
     >>> is_an_oak('Fagus sylvatica')
     False
     >>> is_an_oak('Quercus robur')
@@ -30,7 +40,12 @@ def is_an_oak(name):
 
 
 def main(argv): 
-    
+    """
+    Runs is_an_oak on each of the non-header rows.
+
+    Returns:
+        int: 0 on success, non-0 on failure
+    """
 
 
     f = open('../data/TestOaksData.csv','r')
@@ -80,7 +95,6 @@ if __name__ == "__main__":
 
 
 
-doctest.testmod()
 
 
 

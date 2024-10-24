@@ -3,7 +3,7 @@
 """
 A Python script that finds oak in a given .csv file.
 
-This script contains two functions, one that  returns `True` if the genus is exactly 'quercus'.
+This script contains two functions, one that returns `True` if the genus is exactly 'quercus'.
 Another function that prints 'FOUND AN OAK!' when an oak is found in all taxas and saves oak trees into a new csv file.
 """
 

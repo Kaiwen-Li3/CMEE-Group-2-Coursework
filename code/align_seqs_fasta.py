@@ -36,7 +36,7 @@ import os
 # Define the base directory for your data (relative path)
 base_dir = "../data/"
 
-# Check if command-line arguments are provided
+# Checks if commards are provided
 if len(sys.argv) >= 3: 
     # Use the paths provided by command-line arguments
     seq1  = os.path.join(base_dir, sys.argv[1])
@@ -46,7 +46,23 @@ else:
     seq1  = os.path.join(base_dir, "407228326.fasta")
     seq2  = os.path.join(base_dir, "407228412.fasta")
 
-def read_fasta(filename): 
+def read_fasta(filename):
+    """
+    Read the sequence from the fasta files provided. 
+    
+    the function returns the sequences in the file to a single string
+
+    Args:
+        file name of the fasta file which is being read
+
+    returns: 
+        a string containing the concatenated sequence from the fasta file, with new lines removed
+
+    Example: 
+    >>> read_fasta("example.fasta")
+    'ATGCGTACGTACGATCGACTTTACG'
+    
+    """ 
     with open(filename, 'r') as f: 
         lines = f.readlines()
     sequence = ''.join([line.strip() for line in lines if not line.startswith(">")])

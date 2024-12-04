@@ -26,6 +26,9 @@ It aligns the sequences using a scoring system and outputs the best alignment to
 **Important Note**
 To ensure the scripts run correctly, please make sure to change your working directory (cd) to the code folder before executing the scripts, as we have used relative paths for accessing the data and output files.
 
+**Task 3: PP_Regress_Loc**
+
+This task analyses predator-prey mass relationships and visualizes these interactions based on feeding interaction type, predator life stage and location where data was collected, from the EcolArchives-E089-51-D1.csv dataset. The dataset is found in data, and the code in code. A CSV is saved in the results folder containing key statistics such as slope, intercept, R², p-value, F-statistic, based off feeding interaction type, predator life stage and location iterations. 
 
 **Task 3: PP_Regress_Loc.R**
 

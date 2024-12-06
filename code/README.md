@@ -1,7 +1,5 @@
 # CMEE Group CourseWork
 
-# Title: Biological Computing Bootcamp - Groupwork tasks
-
 ## Brief Description:
 
 This repository contains the group work coursework element for the Computational Methods in Ecology and Evolution (CMEE). The exercises are based on TheMulQuaBio course notes (https://mhasoba.github.io/TheMulQuaBio/intro.html) from the Biological Computing course at the Department of Life Sciences, Imperial College London.

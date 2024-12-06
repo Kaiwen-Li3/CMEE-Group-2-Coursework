@@ -107,27 +107,28 @@ Expected Output:
            
            
 ## PP_Regress_Loc.R
-Functions
+
+### Functions
 
 	Analyses predator-prey mass relationships and visualizes these interactions based on feeding interaction type, predator life stage and location where data was collected	
    
-Input
+### Input
 
 	EcolArchives-E089-51-D1.csv: Dataset of predator-prey interactions, as well location data.
     
-Output
+### Output
 
 	key statistics such as slope, intercept, R², p-value, F-statistic, based off feeding interaction type, predator life stage and location iterations. 
     
-Usage
+### Usage
 
 	input EcolArchives-E089-51-D1.csv
     
-Command
+### Command
 
 	source("PP_Regress_Loc.R")
 	
-Expected Output
+### Expected Output
 	
 	csv file containing key statistics such as slope, intercept, R², p-value, F-statistic.
 
@@ -178,9 +179,6 @@ source("TAutoCorr.R")
 - Refer to inline comments in the script for guidance on parameter adjustments.
 
 
-Here’s the README based on your instructions:
-
----
 
 ## Florida-Group.tex
 

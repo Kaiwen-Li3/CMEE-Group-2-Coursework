@@ -48,22 +48,22 @@ This script reads a CSV file containing tree species data, identifies species fr
 This script aligns two DNA sequences, identifies the best alignment based on matching bases, and saves the result. It takes DNA sequences from FASTA files, aligns one sequence against the other at various starting points, calculates an alignment score for each, and determines the alignment with the highest score.
 Features
 
-Functions
+## Functions
 
     read_fasta: Reads a DNA sequence from a FASTA file, ignoring the header.
     calculate_score: Aligns two sequences from a given start position and computes the score based on matching bases.
 
-Input
+## Input
 
     FASTA files: Two DNA sequences in FASTA format, provided as command-line arguments or default paths (seq1.fasta and seq2.fasta).
         Ensure that the files are in plain text (no .rtf or other extensions).
 
-Output
+## Output
 
     The script writes the best alignment and corresponding score to ../Results/DNA_seq.txt.
     Alignment details, including matching positions, are printed to the terminal.
 
-Usage
+## Usage
 
 To run the script, use the following format:
 

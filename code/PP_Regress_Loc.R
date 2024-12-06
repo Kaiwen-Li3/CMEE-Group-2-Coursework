@@ -49,5 +49,5 @@ print(regression_results)
 output_file <- "../results/PP_Regress_Loc_Results.csv"
 write.csv(regression_results, file = output_file, row.names = FALSE)
 
-#WOOOOOOOOOO
+#Complete
 print(paste("Linear regression results saved to:", output_file))

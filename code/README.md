@@ -122,6 +122,97 @@ Command
 Expected Output
 	
 	csv file containing key statistics such as slope, intercept, R², p-value, F-statistic.
+
+Here’s a basic template for the README file:
+
+---
+
+# TAutoCorr.R
+
+## Overview
+
+`TAutoCorr.R` is an R script designed to analyze autocorrelation in time-series data. It employs statistical methods to identify and interpret patterns, providing insights into temporal relationships within datasets.
+
+## Features
+
+- Computes autocorrelation functions for time-series data.
+- Visualizes autocorrelation using plots.
+- Supports various customizable parameters for detailed analysis.
+
+## Requirements
+
+- R (version 4.0 or higher recommended)
+- Required packages:
+  - **ggplot2**: For data visualization
+  - **forecast**: For time-series analysis
+  - Other dependencies as specified in the script
+
+## Usage
+
+1. Clone or download the script to your local machine.
+2. Ensure the necessary packages are installed in your R environment.
+3. Run the script with your time-series dataset. Modify input file paths and parameters as needed in the script.
+
+### Example
+
+```R
+# Example usage in R
+source("TAutoCorr.R")
+# Customize parameters within the script to match your dataset
+```
+
+## Input and Output
+
+- **Input**: The script accepts time-series datasets in formats like `.csv` or data frames loaded into R.
+- **Output**: Visualizations of autocorrelation and related statistics are generated.
+
+## Notes
+
+- Ensure your input data is properly formatted (e.g., consistent time intervals).
+- Refer to inline comments in the script for guidance on parameter adjustments.
+
+
+Here’s the README based on your instructions:
+
+---
+
+# main.tex
+
+## Overview
+
+`main.tex` is a LaTeX file designed for creating a professional document with embedded images. The images are stored using relative paths, ensuring a well-structured and organized project layout.
+
+## Instructions
+
+1. **Set the Working Directory**:  
+   Before running `main.tex`, ensure that your working directory is set to the `code` folder. This is crucial as the file uses relative paths to reference images.
+
+2. **Image Locations**:  
+   - The images used in the document are located in the `data` folder.
+   - File names: `1.png` and `2.png`.
+
+3. **Handling Errors**:  
+   - If the images fail to load, verify that the `data` folder is correctly placed in the same directory as the `code` folder.
+   - As a fallback, a precompiled PDF version of the document is available in the `code` folder.
+
+## Requirements
+
+- A LaTeX distribution installed on your machine (e.g., TeX Live, MikTeX, Overleaf).
+- Ensure that the LaTeX compiler supports `graphicx` for image handling.
+
+## Compilation
+
+To compile `main.tex`:
+```bash
+pdflatex main.tex
+```
+
+Ensure that the terminal or LaTeX editor is set to the `code` folder.
+
+
+
+
+
 	
 
 

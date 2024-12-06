@@ -131,9 +131,7 @@ Expected Output
 	
 	csv file containing key statistics such as slope, intercept, R², p-value, F-statistic.
 
-Here’s a basic template for the README file:
 
----
 
 ## TAutoCorr.R
 

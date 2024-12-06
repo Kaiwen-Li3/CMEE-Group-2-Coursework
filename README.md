@@ -1,4 +1,4 @@
-**CMEE Coursework Week 3**
+# CMEE Coursework Week 3
 
 This repository contains the coursework for **Week 3** of the Computational Methods in Ecology and Evolution (CMEE) module. Our team consists of the following members:
 

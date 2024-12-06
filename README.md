@@ -1,10 +1,13 @@
 # CMEE Coursework Week 3
 
-This repository contains the coursework for **Week 3** of the Computational Methods in Ecology and Evolution (CMEE) module. Our team consists of the following members:
+This repository contains the coursework of the Computational Methods in Ecology and Evolution (CMEE) module. Our team consists of the following members:
 
 1.Pearce, Saskia   saskia.pearce21@imperial.ac.uk
+
 2.Li, Kaiwen   kaiwen.li21@imperial.ac.uk
+
 3.Li, Yibin    yibin.li24@imperial.ac.uk
+
 4.Zhang, Tianye  tianye.zhang24@imperial.ac.uk
 
 **Tasks Overview**

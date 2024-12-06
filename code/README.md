@@ -175,16 +175,16 @@ Here’s the README based on your instructions:
 
 ---
 
-# main.tex
+# Florida-Group.tex
 
 ## Overview
 
-`main.tex` is a LaTeX file designed for creating a professional document with embedded images. The images are stored using relative paths, ensuring a well-structured and organized project layout.
+`Florida-Group.tex` is a LaTeX file designed for creating a professional document with embedded images. The images are stored using relative paths, ensuring a well-structured and organized project layout.
 
 ## Instructions
 
 1. **Set the Working Directory**:  
-   Before running `main.tex`, ensure that your working directory is set to the `code` folder. This is crucial as the file uses relative paths to reference images.
+   Before running `Florida-Group.tex`, ensure that your working directory is set to the `code` folder. This is crucial as the file uses relative paths to reference images.
 
 2. **Image Locations**:  
    - The images used in the document are located in the `data` folder.

@@ -30,6 +30,7 @@ git clone git clone git@github.com:Kaiwen-Li3/CMEE-Group-2-Coursework.git
 ## Project Structure and Usage:
 The repository contains 10 primary scripts located in the Code folder. The Data folder includes input files used by some scripts, while the sandbox folder contains experimental files and is not essential to the main coursework. Output files are generated in the results folder for this week’s coursework.
 
+Here is the overview of scripts:
 
 # Oak Species Filtering Script
 

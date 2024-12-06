@@ -98,10 +98,9 @@ Expected Output:
            
            
 # PP_Regress_Loc.R
- 
 Functions
-    
-     	Analyses predator-prey mass relationships and visualizes these interactions based on feeding interaction type, predator life stage and location where data was collected	
+
+	Analyses predator-prey mass relationships and visualizes these interactions based on feeding interaction type, predator life stage and location where data was collected	
    
 Input
 

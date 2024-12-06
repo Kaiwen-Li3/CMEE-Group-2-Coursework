@@ -30,3 +30,10 @@ To ensure the scripts run correctly, please make sure to change your working dir
 
 This task analyses predator-prey mass relationships and visualizes these interactions based on feeding interaction type, predator life stage and location where data was collected, from the EcolArchives-E089-51-D1.csv dataset. The dataset is found in data, and the code in code. A CSV is saved in the results folder containing key statistics such as slope, intercept, R², p-value, F-statistic, based off feeding interaction type, predator life stage and location iterations. 
 
+**Task 3: PP_Regress_Loc.R**
+
+This task analyses predator-prey mass relationships and visualizes these interactions based on feeding interaction type, predator life stage and location where data was collected. The code for this task is found in the code file, and the data 'EcolArchives-E089-51-D1.csv' in the data file. 
+
+The script outputs key statistics such as slope, intercept, R², p-value, F-statistic, based off feeding interaction type, predator life stage and location iterations, in a csv file in results called: PP_Regress_Loc_Results.csv.
+
+
